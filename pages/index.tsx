@@ -83,7 +83,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
         <h1 className="text-4xl md:text-7xl font-bold">
           <Gradient text="EmailDraftCraft" /> 📝
         </h1>
-        {session ? (
+        {!session ? (
           <>
             <div className="mt-32 mx-auto p-7 shadow appearance-none border rounded-lg dark:border-none text-center">
               <p>
