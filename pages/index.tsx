@@ -85,7 +85,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
         </h1>
         {!session ? (
           <>
-            <div className="mt-32 mx-auto p-7 shadow appearance-none border rounded-lg dark:border-none text-center">
+            <div className="mt-32 mx-4 mx-auto p-7 shadow appearance-none border rounded-lg dark:border-none text-center">
               <p>
                 Welcome to <b>EmailDraftCraft</b>, your personal email
                 assistant!
@@ -117,7 +117,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
                 <div className="md:w-1/2 px-6 mx-auto">
                   <form
                     onSubmit={handleSubmit}
-                    className="mx-auto p-7 shadow appearance-none border rounded-lg dark:border-none text-left"
+                    className="mx-auto p-7 mb-7 shadow appearance-none border rounded-lg dark:border-none text-left"
                   >
                     <Input
                       label="Teacher's Name:"
