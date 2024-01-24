@@ -71,7 +71,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
   return (
     <div className="py-32 min-h-screen flex flex-col justify-center items-center overflow-x-hidden">
       <Head>
-        <title>EmailDraftCraft</title>
+        <title>EmailDraftCraft 📝</title>
         <link rel="icon" href="/favicon.ico" />
         <script
           async
