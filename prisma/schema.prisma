@@ -44,6 +44,7 @@ model User {
   accounts      Account[]
   sessions      Session[]
   newUser       Boolean   @default(true)
+  proUser       Boolean   @default(false)
   tokens        Int       @default(5)
 }
 
