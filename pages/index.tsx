@@ -86,20 +86,21 @@ const Home: NextPage<Props> = ({ userTokens }) => {
         {!session ? (
           <>
             <div className="mt-32 mx-4 mx-auto p-7 shadow appearance-none border rounded-lg dark:border-none text-center">
-              <p>
+              <p className="text-2xl">
                 Welcome to <b>EmailDraftCraft</b>, your personal email
                 assistant!
               </p>
               <p className="mt-4">
-                To get started, sign in with your Google account.
+                Writing to your teacher? Use this AI tool for a quick and
+                efficient process.
               </p>
-              <div className="w-1/2 mx-auto p-6">
+              <div className="w-1/2 mx-auto mt-8 mb-16">
                 <Btn
                   text="Sign in with Google"
                   onClick={() => signIn("google")}
                 />
               </div>
-              <p className="mt-4">
+              <p className="mt-">
                 None of your data will be shared or sold with any third-parties.
                 <br /> Your Google account is simply being used for a convenient
                 authentication method.
