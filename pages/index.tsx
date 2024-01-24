@@ -122,7 +122,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
                     <Input
                       label="Teacher's Name:"
                       name="teacherName"
-                      placeholder="Mr. ABCXYZ"
+                      placeholder="..."
                       parentData={formData.teacherName}
                       updateParent={(e: string) =>
                         setFormData({ ...formData, teacherName: e })
@@ -131,7 +131,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
                     <Input
                       label="Course:"
                       name="course"
-                      placeholder="Science"
+                      placeholder="Math"
                       parentData={formData.course}
                       updateParent={(e: string) =>
                         setFormData({ ...formData, course: e })
@@ -140,7 +140,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
                     <Input
                       label="Grade level:"
                       name="gradeLevel"
-                      placeholder="5"
+                      placeholder="10"
                       parentData={formData.gradeLevel}
                       updateParent={(e: string) =>
                         setFormData({ ...formData, gradeLevel: e })
@@ -150,7 +150,7 @@ const Home: NextPage<Props> = ({ userTokens }) => {
                     <Textarea
                       label="What do you want to write about?"
                       name="content"
-                      placeholder="What is the particle theory of matter?"
+                      placeholder="I want to retake last weeks quiz"
                       parentData={formData.content}
                       updateParent={(e: string) =>
                         setFormData({ ...formData, content: e })
